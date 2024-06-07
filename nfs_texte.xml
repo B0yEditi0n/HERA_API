@@ -1,0 +1,215 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe versao="4.00" Id="NFe23220200153282000167550020002045661622866814">
+            <ide>
+                <cUF>23</cUF>
+                <cNF>62286681</cNF>
+                <natOp>Compra para industrialização /</natOp>
+                <mod>55</mod>
+                <serie>2</serie>
+                <nNF>204566</nNF>
+                <dhEmi>2022-02-08T00:00:00-02:00</dhEmi>
+                <tpNF>0</tpNF>
+                <idDest>3</idDest>
+                <cMunFG>2307700</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>4</cDV>
+                <tpAmb>2</tpAmb>
+                <finNFe>1</finNFe>
+                <indFinal>0</indFinal>
+                <indPres>9</indPres>
+                <indIntermed>0</indIntermed>
+                <procEmi>0</procEmi>
+                <verProc>1</verProc>
+            </ide>
+            <emit>
+                <CNPJ>00153282000167</CNPJ>
+                <xNome>CESDE IND.COM.DE ELETRODOMESTICOS LTDA</xNome>
+                <xFant>Fabrica I - Matriz</xFant>
+                <enderEmit>
+                    <xLgr>Av. Cmdt Aviador Childerico Mota</xLgr>
+                    <nro>3599</nro>
+                    <xCpl>Galpao A</xCpl>
+                    <xBairro>Coite</xBairro>
+                    <cMun>2307700</cMun>
+                    <xMun>Maranguape</xMun>
+                    <UF>CE</UF>
+                    <CEP>61946345</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>8540113800</fone>
+                </enderEmit>
+                <IE>069631891</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <idEstrangeiro />
+                <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+                <enderDest>
+                    <xLgr>INDUSTRY DEVELOPMENT ZONE</xLgr>
+                    <nro>S/N</nro>
+                    <xBairro>FUHAI</xBairro>
+                    <cMun>9999999</cMun>
+                    <xMun>EXTERIOR</xMun>
+                    <UF>EX</UF>
+                    <CEP>00000000</CEP>
+                    <cPais>1600</cPais>
+                    <xPais>China</xPais>
+                    <fone>8657463682813</fone>
+                </enderDest>
+                <indIEDest>9</indIEDest>
+            </dest>
+            <det nItem="1">
+                <prod>
+                    <cProd>B01000230</cProd>
+                    <cEAN>SEM GTIN</cEAN>
+                    <xProd>MOTOR VENT.12 IEC 127V 60Hz C/NOVO PIVO</xProd>
+                    <NCM>85014019</NCM>
+                    <CEST>0199900</CEST>
+                    <indEscala>S</indEscala>
+                    <CFOP>3101</CFOP>
+                    <uCom>UN</uCom>
+                    <qCom>18720.0000</qCom>
+                    <vUnCom>28.0646639957</vUnCom>
+                    <vProd>525370.51</vProd>
+                    <cEANTrib>SEM GTIN</cEANTrib>
+                    <uTrib>UN</uTrib>
+                    <qTrib>18720.0000</qTrib>
+                    <vUnTrib>28.0646639957</vUnTrib>
+                    <vFrete>83321.25</vFrete>
+                    <vSeg>334.78</vSeg>
+                    <vOutro>21815.74</vOutro>
+                    <indTot>1</indTot>
+                    <DI>
+                        <nDI>2200443047</nDI>
+                        <dDI>2022-01-07</dDI>
+                        <xLocDesemb>ALF - FORTALEZA</xLocDesemb>
+                        <UFDesemb>CE</UFDesemb>
+                        <dDesemb>2022-01-08</dDesemb>
+                        <tpViaTransp>1</tpViaTransp>
+                        <vAFRMM>0.00</vAFRMM>
+                        <tpIntermedio>3</tpIntermedio>
+                        <CNPJ>00153282000167</CNPJ>
+                        <UFTerceiro>CE</UFTerceiro>
+                        <cExportador>CIA. ESPANOLA ELECTROPORTATILES, S.</cExportador>
+                        <adi>
+                            <nAdicao>1</nAdicao>
+                            <nSeqAdic>1</nSeqAdic>
+                            <cFabricante>TECHXIN ELECTRIC APPLIANCE MANUFACTURE CO., LTD</cFabricante>
+                        </adi>
+                    </DI>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS51>
+                            <orig>1</orig>
+                            <CST>51</CST>
+                            <modBC>3</modBC>
+                            <pRedBC>0.0000</pRedBC>
+                            <vBC>0.00</vBC>
+                            <pICMS>0.0000</pICMS>
+                            <vICMSOp>0.00</vICMSOp>
+                            <pDif>0.0000</pDif>
+                            <vICMSDif>0.00</vICMSDif>
+                            <vICMS>0.00</vICMS>
+                        </ICMS51>
+                    </ICMS>
+                    <IPI>
+                        <cEnq>999</cEnq>
+                        <IPITrib>
+                            <CST>00</CST>
+                            <vBC>708441.82</vBC>
+                            <pIPI>10.0000</pIPI>
+                            <vIPI>70844.18</vIPI>
+                        </IPITrib>
+                    </IPI>
+                    <II>
+                        <vBC>609674.54</vBC>
+                        <vDespAdu>0.00</vDespAdu>
+                        <vII>98767.28</vII>
+                        <vIOF>0.00</vIOF>
+                    </II>
+                    <PIS>
+                        <PISOutr>
+                            <CST>56</CST>
+                            <vBC>609674.54</vBC>
+                            <pPIS>2.1000</pPIS>
+                            <vPIS>12803.17</vPIS>
+                        </PISOutr>
+                    </PIS>
+                    <COFINS>
+                        <COFINSOutr>
+                            <CST>56</CST>
+                            <vBC>609674.54</vBC>
+                            <pCOFINS>9.6500</pCOFINS>
+                            <vCOFINS>58833.59</vCOFINS>
+                        </COFINSOutr>
+                    </COFINS>
+                </imposto>
+                <infAdProd>ICMS DIFERIDO, CONFORME ART. 10(o), ANEXO II, ITEM 34.0.3 DO DEC.
+                    33.327-2019. TERMO DE ACORDO FDI-PCDM N(o) 482-2007 RESOLUCAO CEDIN - No
+                    177-2020 Sujeito a IPI</infAdProd>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>0.00</vBC>
+                    <vICMS>0.00</vICMS>
+                    <vICMSDeson>0.00</vICMSDeson>
+                    <vFCP>0.00</vFCP>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vFCPST>0.00</vFCPST>
+                    <vFCPSTRet>0.00</vFCPSTRet>
+                    <vProd>525370.51</vProd>
+                    <vFrete>83321.25</vFrete>
+                    <vSeg>334.78</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>98767.28</vII>
+                    <vIPI>70844.18</vIPI>
+                    <vIPIDevol>0.00</vIPIDevol>
+                    <vPIS>12803.17</vPIS>
+                    <vCOFINS>58833.59</vCOFINS>
+                    <vOutro>21815.74</vOutro>
+                    <vNF>872090.50</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>1</modFrete>
+                <vol>
+                    <esp>VOLUME</esp>
+                    <marca>MALLORY</marca>
+                </vol>
+            </transp>
+            <pag>
+                <detPag>
+                    <tPag>90</tPag>
+                    <vPag>0.00</vPag>
+                </detPag>
+            </pag>
+            <infAdic>
+                <infCpl>* ICMS DIFERIDO, CONFORME ART. 10º, ANEXO II, ITEM 34.0.3 DO DEC.
+                    33.327/2019. TERMO DE ACORDO FDI/PCDM Nº 482/2007 RESOLUÇÃO CEDIN - N° 177/2020
+                    * Sujeito a IPI</infCpl>
+            </infAdic>
+            <infRespTec>
+                <CNPJ>08368788000103</CNPJ>
+                <xContato>SAP A.G</xContato>
+                <email>sap@ag.com.br</email>
+                <fone>1199999595</fone>
+            </infRespTec>
+        </infNFe>
+    </NFe>
+    <protNFe xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+        <infProt>
+            <tpAmb>2</tpAmb>
+            <verAplic>SVRS202202032322</verAplic>
+            <chNFe>23220200153282000167550020002045661622866814</chNFe>
+            <dhRecbto>2022-02-08T16:38:54-03:00</dhRecbto>
+            <nProt>323220000013760</nProt>
+            <digVal>VwEgx78CEiRx2Au2AWOZc1/9cU8=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>

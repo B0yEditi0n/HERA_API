@@ -1,0 +1,169 @@
+# Bibliotecas
+import ctypes
+import json
+import os
+import sys
+from datetime import datetime
+
+# Obtem a pasta do projeto
+DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
+
+class NFe:
+    # Caminhos de arquivos
+    PATH_DLL                = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'ACBrLib', 'ACBrNFe64.dll'))
+    PATH_INI_CONFIG         = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'ACBrLib', 'NFeConfig.ini'))
+    PATH_LOG                = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "Log"))
+    PATH_SCHEMA             = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", "Schemas", "NFe"))
+    INI_ACBR_NFE            = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", 'ACBrNFeServicos.ini'))
+    INI_NFE                 = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'config' ,"nfe.INI"))
+
+    # Troca de retornos
+    tamanho_inicial = 9096
+    esTamanho = ctypes.c_ulong(tamanho_inicial)
+    sResposta = ctypes.create_string_buffer(tamanho_inicial)
+
+    # blbioteca
+    cbr_lib = ctypes.cdll.LoadLibrary(PATH_DLL)
+    eChaveCrypt = 'dn5fy#5215#sdh'
+
+    def init_DLL(self):
+        '''
+            Incializa a DLL responsável por emitir NFe
+
+            Args:
+                int Returning : 
+                    0    - Indica que o método foi inicializada corretamente.
+                    -1   - Indica que a biblioteca não foi inicializada.
+                    -10  - Indica que houve erro ao ler o arquivo INI.
+                    -404 - DLL não encontrada")
+        '''
+
+        # cria o arquivo de log se não existir
+        if not os.path.exists(self.PATH_LOG):
+            os.makedirs(self.PATH_LOG) 
+
+        #Verifica se a dll está no path indicado
+        if not os.path.exists(self.PATH_DLL):
+            return (-404)
+        
+        # inicializa a DLL
+        init_retorno = self.cbr_lib.NFE_Inicializar(self.PATH_INI_CONFIG.encode("utf-8"), self.eChaveCrypt.encode("utf-8"))
+
+        if init_retorno != 0:
+            return (init_retorno)
+        else:
+            if self.configura_ini() == 0:
+                return 0
+
+        
+    def configura_ini(self):
+        '''
+            Configura os parametros do arquivo INIT
+            definindo algumas configurações de funcionamento
+            da API
+
+            Args:
+                int Returning : 
+                    0 - Sucesso na configuração
+        '''
+        #-----------------------------------------------------------------------------
+        # Caio abreu de Souza 06.06.2024
+        # a Documentação é horrivel de navegar, portanto não apage os links!
+
+        # Configuração da Biblioteca    
+        # consulte a documentação para mais detalhes
+        # https://acbr.sourceforge.io/ACBrLib/Geral.html
+        #-----------------------------------------------------------------------------
+        
+        # Resposta do Tipo JSON para texte
+        self.escrever_ini("Principal", "TipoResposta", "2")
+        # Codificação UTF-8
+        self.escrever_ini("Principal", "CodificacaoResposta", "0")
+        # Reposta tipo Paranoico (Retorno total)
+        self.escrever_ini("Principal", "LogNivel", "4")
+        # Path de armazenamento 
+        self.escrever_ini("Principal", "LogPath", self.PATH_LOG)
+
+        # Prenchimento referente a biblioteca
+        # https://acbr.sourceforge.io/ACBrLib/ConfiguracoesdaBiblioteca16.html
+        self.escrever_ini("NFe", "FormaEmissao", '0')
+        self.escrever_ini("NFe", "SalvarGer", '0')
+        self.escrever_ini("NFe", "ExibirErroSchema", '1')
+        nf_dir = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'xmlDir'))
+        nf_ser = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'ACBrLib', 'ACBrNFeServicos.ini'))
+        self.escrever_ini("NFe", "PathSalvar", nf_dir)
+        self.escrever_ini("NFe", "PathSchemas", self.PATH_SCHEMA)
+        self.escrever_ini("NFe", "PathNFe", nf_dir)
+        self.escrever_ini("NFe", "IniServicos", nf_ser)
+
+        # Carregar Certificado
+        # https://acbr.sourceforge.io/ACBrLib/DFe.html
+        self.escrever_ini("DFe", "ArquivoPFX", os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'config', 'certificadoDigital', "server.pfx")))
+        self.escrever_ini("DFe", "Senha", "Dh2022@@")
+        self.escrever_ini("DFe", "SSLCryptLib", "1")
+        self.escrever_ini("DFe", "SSLHttpLib", "0")
+        self.escrever_ini("DFe", "SSLXmlSignLib", "4")
+
+        self.escrever_ini("DANFE", "PathPDF", DIRETORIO_ATUAL)
+        return 0
+
+    def carregarXML(self):
+        '''
+            para preencher a nota fiscal é necessário cadastar alguns campos 
+            no NFE.ini
+            para evitar duvidas consulte o manual de layout
+            https://www.confaz.fazenda.gov.br/legislacao/arquivo-manuais/moc7-anexo-i-leiaute-e-rv.pdf
+
+        '''
+        # Carrega uma NFE apartir do arquivo INI
+        self.cbr_lib.NFE_CarregarINI(self.INI_NFE.encode("utf-8"))
+
+    def escrever_ini(self, sessao, chave, valor):
+        '''
+            Auxilia no preenchimento dos valores 
+            para evitar extender codigo com conversões .utf(8)
+
+            Args:
+                Params:
+                    sessao - valor que se encontra no ini como [sessao]
+                    chave  - variável dentro da sessão a ser alteada
+                    valor  - parametro de valor novo no ini
+        '''
+        self.cbr_lib.NFE_ConfigGravarValor(
+            sessao.encode("utf-8"),
+            chave.encode("utf-8"),
+            valor.encode("utf-8")
+        )
+
+    def assinarNFE(self):
+        return(self.cbr_lib.NFE_Assinar())
+
+    def validar(self):
+        return(self.cbr_lib.NFE_Validar())
+    
+    
+    def guardaXML(self):
+        '''
+            Guarda a XML de Envio da NF criada
+
+
+        '''
+                
+        self.cbr_lib.NFE_ObterIni(
+            # Posição da NFe na lista, a lista inicia em 0.
+            0,
+            # Usado pelo retorno, contem as informações retornadas.
+            self.sResposta,
+            # Usado pelo retorno, contem o tamanho da string (sResposta).
+            ctypes.byref(self.esTamanho)
+        )
+        retornoXML = self.cbr_lib.NFE_UltimoRetorno(self.sResposta, ctypes.byref(self.esTamanho))
+
+
+        print('\nObter XML: ', retornoXML)
+        print('\nMemória usada: ', self.esTamanho.value)
+        print(self.sResposta.value.decode("utf-8"))
+    
+    def finalizar_execucao(self):
+        self.cbr_lib.NFE_Finalizar()
+    

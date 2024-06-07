@@ -1,0 +1,1602 @@
+07/06/24 14:19:45:011 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:45:012 - Travar
+07/06/24 14:19:45:024 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:45:034 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:45:043 - Destravar
+07/06/24 14:19:45:051 - TLibNFeConfig.Ler - Feito
+07/06/24 14:19:45:060 - Destravar
+07/06/24 14:19:45:073 - TACBrLibNFe.Inicializar - Feito
+07/06/24 14:19:45:087 - LIB_Inicializar( C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini, ************** )
+07/06/24 14:19:45:100 -    ACBrLibNFE Demo - 0.4.6.272
+07/06/24 14:19:45:114 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:19:45:128 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:142 - LIB_ConfigGravarValor(Principal, TipoResposta, 2)
+07/06/24 14:19:45:155 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:19:45:164 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:174 - TLibNFeConfig.AjustarValor(tfGravar,Principal,TipoResposta,2)
+07/06/24 14:19:45:181 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:45:190 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:45:197 - Travar
+07/06/24 14:19:45:205 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:45:212 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:45:220 - Destravar
+07/06/24 14:19:45:228 -    SetRetorno(0, )
+07/06/24 14:19:45:235 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:19:45:242 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:256 - LIB_ConfigGravarValor(Principal, CodificacaoResposta, 0)
+07/06/24 14:19:45:268 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:19:45:278 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:288 - TLibNFeConfig.AjustarValor(tfGravar,Principal,CodificacaoResposta,0)
+07/06/24 14:19:45:304 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:45:318 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:45:333 - Travar
+07/06/24 14:19:45:346 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:45:361 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:45:369 - Destravar
+07/06/24 14:19:45:384 -    SetRetorno(0, )
+07/06/24 14:19:45:396 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:19:45:409 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:418 - LIB_ConfigGravarValor(Principal, LogNivel, 4)
+07/06/24 14:19:45:435 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:19:45:452 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:462 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogNivel,4)
+07/06/24 14:19:45:478 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:45:493 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:45:509 - Travar
+07/06/24 14:19:45:526 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:45:540 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:45:552 - Destravar
+07/06/24 14:19:45:567 -    SetRetorno(0, )
+07/06/24 14:19:45:578 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:19:45:587 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:596 - LIB_ConfigGravarValor(Principal, LogPath, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:19:45:612 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:19:45:622 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:638 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogPath,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:19:45:657 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:45:671 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:45:685 - Travar
+07/06/24 14:19:45:700 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:45:713 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:45:723 - Destravar
+07/06/24 14:19:45:732 -    SetRetorno(0, )
+07/06/24 14:19:45:748 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:19:45:761 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:774 - LIB_ConfigGravarValor(NFe, FormaEmissao, 0)
+07/06/24 14:19:45:789 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:19:45:805 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:819 - TLibNFeConfig.AjustarValor(tfGravar,NFe,FormaEmissao,0)
+07/06/24 14:19:45:829 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:45:847 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:45:868 - Travar
+07/06/24 14:19:45:885 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:45:894 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:45:903 - Destravar
+07/06/24 14:19:45:910 -    SetRetorno(0, )
+07/06/24 14:19:45:918 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:19:45:928 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:937 - LIB_ConfigGravarValor(NFe, SalvarGer, 0)
+07/06/24 14:19:45:945 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:19:45:953 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:45:961 - TLibNFeConfig.AjustarValor(tfGravar,NFe,SalvarGer,0)
+07/06/24 14:19:45:976 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:45:992 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:46:008 - Travar
+07/06/24 14:19:46:025 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:46:041 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:46:057 - Destravar
+07/06/24 14:19:46:068 -    SetRetorno(0, )
+07/06/24 14:19:46:079 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:19:46:086 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:102 - LIB_ConfigGravarValor(NFe, ExibirErroSchema, 1)
+07/06/24 14:19:46:117 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:19:46:134 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:152 - TLibNFeConfig.AjustarValor(tfGravar,NFe,ExibirErroSchema,1)
+07/06/24 14:19:46:167 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:46:182 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:46:198 - Travar
+07/06/24 14:19:46:213 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:46:226 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:46:237 - Destravar
+07/06/24 14:19:46:248 -    SetRetorno(0, )
+07/06/24 14:19:46:255 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:19:46:271 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:287 - LIB_ConfigGravarValor(NFe, PathSalvar, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:19:46:302 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:19:46:315 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:329 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSalvar,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:19:46:344 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:46:360 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:46:378 - Travar
+07/06/24 14:19:46:394 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:46:410 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:46:426 - Destravar
+07/06/24 14:19:46:440 -    SetRetorno(0, )
+07/06/24 14:19:46:453 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:19:46:472 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:485 - LIB_ConfigGravarValor(NFe, PathSchemas, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:19:46:499 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:19:46:515 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:531 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSchemas,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:19:46:547 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:46:560 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:46:576 - Travar
+07/06/24 14:19:46:594 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:46:609 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:46:626 - Destravar
+07/06/24 14:19:46:642 -    SetRetorno(0, )
+07/06/24 14:19:46:653 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:19:46:668 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:683 - LIB_ConfigGravarValor(NFe, PathNFe, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:19:46:697 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:19:46:708 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:716 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathNFe,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:19:46:723 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:46:731 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:46:739 - Travar
+07/06/24 14:19:46:747 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:46:753 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:46:761 - Destravar
+07/06/24 14:19:46:769 -    SetRetorno(0, )
+07/06/24 14:19:46:787 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:19:46:803 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:818 - LIB_ConfigGravarValor(NFe, IniServicos, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:19:46:834 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:19:46:851 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:46:863 - TLibNFeConfig.AjustarValor(tfGravar,NFe,IniServicos,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:19:46:880 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:46:900 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:46:912 - Travar
+07/06/24 14:19:46:922 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:46:929 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:46:945 - Destravar
+07/06/24 14:19:46:961 -    SetRetorno(0, )
+07/06/24 14:19:46:973 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:19:46:986 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:007 - LIB_ConfigGravarValor(DFe, ArquivoPFX, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:19:47:024 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:19:47:039 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:055 - TLibNFeConfig.AjustarValor(tfGravar,DFe,ArquivoPFX,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:19:47:071 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:47:087 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:47:096 - Travar
+07/06/24 14:19:47:104 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:47:121 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:47:136 - Destravar
+07/06/24 14:19:47:152 -    SetRetorno(0, )
+07/06/24 14:19:47:167 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:19:47:192 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:19:47:204 - LIB_ConfigGravarValor(DFe, Senha, ********)
+07/06/24 14:19:47:217 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:19:47:226 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:19:47:240 - TLibNFeConfig.AjustarValor(tfGravar,DFe,Senha,********)
+07/06/24 14:19:47:254 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:47:266 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:47:275 - Travar
+07/06/24 14:19:47:290 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:47:304 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:47:313 - Destravar
+07/06/24 14:19:47:329 -    SetRetorno(0, )
+07/06/24 14:19:47:343 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:19:47:357 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:366 - LIB_ConfigGravarValor(DFe, SSLCryptLib, 1)
+07/06/24 14:19:47:383 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:19:47:399 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:416 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLCryptLib,1)
+07/06/24 14:19:47:432 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:47:449 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:47:461 - Travar
+07/06/24 14:19:47:470 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:47:487 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:47:497 - Destravar
+07/06/24 14:19:47:507 -    SetRetorno(0, )
+07/06/24 14:19:47:522 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:19:47:538 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:556 - LIB_ConfigGravarValor(DFe, SSLHttpLib, 0)
+07/06/24 14:19:47:568 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:19:47:577 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:584 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLHttpLib,0)
+07/06/24 14:19:47:592 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:47:610 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:47:627 - Travar
+07/06/24 14:19:47:644 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:47:661 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:47:674 - Destravar
+07/06/24 14:19:47:690 -    SetRetorno(0, )
+07/06/24 14:19:47:703 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:19:47:719 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:737 - LIB_ConfigGravarValor(DFe, SSLXmlSignLib, 4)
+07/06/24 14:19:47:748 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:19:47:759 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:774 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLXmlSignLib,4)
+07/06/24 14:19:47:788 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:47:804 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:47:820 - Travar
+07/06/24 14:19:47:835 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:47:843 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:47:851 - Destravar
+07/06/24 14:19:47:858 -    SetRetorno(0, )
+07/06/24 14:19:47:866 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:19:47:880 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:894 - LIB_ConfigGravarValor(DANFE, PathPDF, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:19:47:909 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:19:47:927 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:19:47:935 - TLibNFeConfig.AjustarValor(tfGravar,DANFE,PathPDF,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:19:47:944 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:19:47:951 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:19:47:965 - Travar
+07/06/24 14:19:48:006 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:19:48:023 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:19:48:040 - Destravar
+07/06/24 14:19:48:057 -    SetRetorno(0, )
+07/06/24 14:19:48:075 - NFE_CarregarINI(C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\nfe.INI )
+07/06/24 14:19:48:091 - Travar
+07/06/24 14:19:48:110 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:19:48:125 - Destravar
+07/06/24 14:19:48:140 - NFe_Assinar
+07/06/24 14:19:48:153 - Travar
+07/06/24 14:19:48:192 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:19:48:202 - Destravar
+07/06/24 14:19:48:219 - NFE_Validar
+07/06/24 14:19:48:235 - Travar
+07/06/24 14:19:48:269 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:19:48:284 - Destravar
+07/06/24 14:19:48:299 - NFE_ObterIni(0 )
+07/06/24 14:19:48:311 - Travar
+07/06/24 14:19:48:321 - Destravar
+07/06/24 14:19:48:331 -    SetRetorno(-10, Access violation)
+07/06/24 14:19:48:347 - LIB_UltimoRetorno
+07/06/24 14:19:48:359 -    SetRetorno(-10, Access violation)
+07/06/24 14:19:48:374 - LIB_Finalizar
+07/06/24 14:19:48:384 - Finalizar
+07/06/24 14:33:40:139 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:40:140 - Travar
+07/06/24 14:33:40:148 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:40:156 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:40:164 - Destravar
+07/06/24 14:33:40:171 - TLibNFeConfig.Ler - Feito
+07/06/24 14:33:40:179 - Destravar
+07/06/24 14:33:40:187 - TACBrLibNFe.Inicializar - Feito
+07/06/24 14:33:40:194 - LIB_Inicializar( C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini, ************** )
+07/06/24 14:33:40:202 -    ACBrLibNFE Demo - 0.4.6.272
+07/06/24 14:33:40:209 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:33:40:216 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:224 - LIB_ConfigGravarValor(Principal, TipoResposta, 2)
+07/06/24 14:33:40:232 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:33:40:239 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:246 - TLibNFeConfig.AjustarValor(tfGravar,Principal,TipoResposta,2)
+07/06/24 14:33:40:255 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:40:262 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:40:270 - Travar
+07/06/24 14:33:40:277 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:40:285 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:40:292 - Destravar
+07/06/24 14:33:40:300 -    SetRetorno(0, )
+07/06/24 14:33:40:307 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:33:40:320 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:334 - LIB_ConfigGravarValor(Principal, CodificacaoResposta, 0)
+07/06/24 14:33:40:347 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:33:40:359 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:370 - TLibNFeConfig.AjustarValor(tfGravar,Principal,CodificacaoResposta,0)
+07/06/24 14:33:40:382 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:40:396 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:40:413 - Travar
+07/06/24 14:33:40:430 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:40:445 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:40:458 - Destravar
+07/06/24 14:33:40:473 -    SetRetorno(0, )
+07/06/24 14:33:40:489 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:33:40:504 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:520 - LIB_ConfigGravarValor(Principal, LogNivel, 4)
+07/06/24 14:33:40:535 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:33:40:546 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:565 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogNivel,4)
+07/06/24 14:33:40:577 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:40:594 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:40:609 - Travar
+07/06/24 14:33:40:625 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:40:641 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:40:654 - Destravar
+07/06/24 14:33:40:664 -    SetRetorno(0, )
+07/06/24 14:33:40:671 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:33:40:679 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:694 - LIB_ConfigGravarValor(Principal, LogPath, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:33:40:710 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:33:40:727 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:742 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogPath,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:33:40:761 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:40:775 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:40:789 - Travar
+07/06/24 14:33:40:799 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:40:809 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:40:820 - Destravar
+07/06/24 14:33:40:829 -    SetRetorno(0, )
+07/06/24 14:33:40:840 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:33:40:850 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:861 - LIB_ConfigGravarValor(NFe, FormaEmissao, 0)
+07/06/24 14:33:40:871 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:33:40:881 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:40:899 - TLibNFeConfig.AjustarValor(tfGravar,NFe,FormaEmissao,0)
+07/06/24 14:33:40:915 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:40:925 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:40:933 - Travar
+07/06/24 14:33:40:949 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:40:963 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:40:979 - Destravar
+07/06/24 14:33:40:994 -    SetRetorno(0, )
+07/06/24 14:33:41:000 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:33:41:014 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:024 - LIB_ConfigGravarValor(NFe, SalvarGer, 0)
+07/06/24 14:33:41:039 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:33:41:048 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:056 - TLibNFeConfig.AjustarValor(tfGravar,NFe,SalvarGer,0)
+07/06/24 14:33:41:064 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:41:074 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:41:089 - Travar
+07/06/24 14:33:41:100 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:41:108 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:41:117 - Destravar
+07/06/24 14:33:41:125 -    SetRetorno(0, )
+07/06/24 14:33:41:137 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:33:41:158 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:174 - LIB_ConfigGravarValor(NFe, ExibirErroSchema, 1)
+07/06/24 14:33:41:193 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:33:41:204 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:228 - TLibNFeConfig.AjustarValor(tfGravar,NFe,ExibirErroSchema,1)
+07/06/24 14:33:41:251 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:41:270 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:41:282 - Travar
+07/06/24 14:33:41:301 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:41:318 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:41:330 - Destravar
+07/06/24 14:33:41:342 -    SetRetorno(0, )
+07/06/24 14:33:41:354 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:33:41:370 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:386 - LIB_ConfigGravarValor(NFe, PathSalvar, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:33:41:399 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:33:41:414 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:430 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSalvar,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:33:41:446 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:41:462 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:41:476 - Travar
+07/06/24 14:33:41:490 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:41:506 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:41:521 - Destravar
+07/06/24 14:33:41:538 -    SetRetorno(0, )
+07/06/24 14:33:41:554 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:33:41:569 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:579 - LIB_ConfigGravarValor(NFe, PathSchemas, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:33:41:592 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:33:41:603 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:612 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSchemas,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:33:41:620 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:41:629 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:41:636 - Travar
+07/06/24 14:33:41:644 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:41:653 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:41:659 - Destravar
+07/06/24 14:33:41:667 -    SetRetorno(0, )
+07/06/24 14:33:41:675 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:33:41:690 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:702 - LIB_ConfigGravarValor(NFe, PathNFe, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:33:41:710 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:33:41:724 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:741 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathNFe,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:33:41:753 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:41:763 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:41:775 - Travar
+07/06/24 14:33:41:786 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:41:798 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:41:810 - Destravar
+07/06/24 14:33:41:819 -    SetRetorno(0, )
+07/06/24 14:33:41:827 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:33:41:845 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:859 - LIB_ConfigGravarValor(NFe, IniServicos, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:33:41:871 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:33:41:884 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:897 - TLibNFeConfig.AjustarValor(tfGravar,NFe,IniServicos,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:33:41:908 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:41:922 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:41:937 - Travar
+07/06/24 14:33:41:953 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:41:962 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:41:969 - Destravar
+07/06/24 14:33:41:976 -    SetRetorno(0, )
+07/06/24 14:33:41:983 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:33:41:990 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:41:997 - LIB_ConfigGravarValor(DFe, ArquivoPFX, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:33:42:004 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:33:42:012 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:027 - TLibNFeConfig.AjustarValor(tfGravar,DFe,ArquivoPFX,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:33:42:040 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:42:051 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:42:066 - Travar
+07/06/24 14:33:42:080 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:42:094 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:42:101 - Destravar
+07/06/24 14:33:42:116 -    SetRetorno(0, )
+07/06/24 14:33:42:133 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:33:42:146 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:33:42:155 - LIB_ConfigGravarValor(DFe, Senha, ********)
+07/06/24 14:33:42:168 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:33:42:186 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:33:42:201 - TLibNFeConfig.AjustarValor(tfGravar,DFe,Senha,********)
+07/06/24 14:33:42:217 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:42:229 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:42:240 - Travar
+07/06/24 14:33:42:257 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:42:270 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:42:282 - Destravar
+07/06/24 14:33:42:289 -    SetRetorno(0, )
+07/06/24 14:33:42:298 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:33:42:314 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:329 - LIB_ConfigGravarValor(DFe, SSLCryptLib, 1)
+07/06/24 14:33:42:343 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:33:42:357 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:368 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLCryptLib,1)
+07/06/24 14:33:42:381 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:42:389 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:42:397 - Travar
+07/06/24 14:33:42:410 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:42:424 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:42:439 - Destravar
+07/06/24 14:33:42:455 -    SetRetorno(0, )
+07/06/24 14:33:42:470 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:33:42:481 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:493 - LIB_ConfigGravarValor(DFe, SSLHttpLib, 0)
+07/06/24 14:33:42:506 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:33:42:518 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:539 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLHttpLib,0)
+07/06/24 14:33:42:551 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:42:558 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:42:566 - Travar
+07/06/24 14:33:42:582 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:42:596 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:42:607 - Destravar
+07/06/24 14:33:42:617 -    SetRetorno(0, )
+07/06/24 14:33:42:626 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:33:42:634 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:642 - LIB_ConfigGravarValor(DFe, SSLXmlSignLib, 4)
+07/06/24 14:33:42:657 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:33:42:675 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:691 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLXmlSignLib,4)
+07/06/24 14:33:42:703 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:42:717 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:42:733 - Travar
+07/06/24 14:33:42:748 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:42:764 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:42:781 - Destravar
+07/06/24 14:33:42:795 -    SetRetorno(0, )
+07/06/24 14:33:42:805 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:33:42:817 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:833 - LIB_ConfigGravarValor(DANFE, PathPDF, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:33:42:846 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:33:42:855 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:33:42:872 - TLibNFeConfig.AjustarValor(tfGravar,DANFE,PathPDF,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:33:42:885 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:33:42:900 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:33:42:913 - Travar
+07/06/24 14:33:42:923 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:33:42:934 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:33:42:946 - Destravar
+07/06/24 14:33:42:957 -    SetRetorno(0, )
+07/06/24 14:33:43:010 - NFE_CarregarINI(C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\nfe.INI )
+07/06/24 14:33:43:024 - Travar
+07/06/24 14:33:43:053 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:33:43:072 - Destravar
+07/06/24 14:33:43:085 - NFe_Assinar
+07/06/24 14:33:43:095 - Travar
+07/06/24 14:33:43:173 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:33:43:187 - Destravar
+07/06/24 14:33:43:199 - NFE_Validar
+07/06/24 14:33:43:212 - Travar
+07/06/24 14:33:43:260 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:33:43:274 - Destravar
+07/06/24 14:33:43:288 - NFE_ObterIni(0 )
+07/06/24 14:33:43:303 - Travar
+07/06/24 14:33:43:321 - Destravar
+07/06/24 14:33:43:332 -    SetRetorno(-10, Access violation)
+07/06/24 14:33:43:349 - LIB_UltimoRetorno
+07/06/24 14:33:43:362 -    SetRetorno(-10, Access violation)
+07/06/24 14:33:43:381 - LIB_Finalizar
+07/06/24 14:33:43:394 - Finalizar
+07/06/24 14:39:56:564 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:56:570 - Travar
+07/06/24 14:39:56:589 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:56:601 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:56:618 - Destravar
+07/06/24 14:39:56:633 - TLibNFeConfig.Ler - Feito
+07/06/24 14:39:56:645 - Destravar
+07/06/24 14:39:56:657 - TACBrLibNFe.Inicializar - Feito
+07/06/24 14:39:56:672 - LIB_Inicializar( C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini, ************** )
+07/06/24 14:39:56:687 -    ACBrLibNFE Demo - 0.4.6.272
+07/06/24 14:39:56:700 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:39:56:717 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:56:729 - LIB_ConfigGravarValor(Principal, TipoResposta, 2)
+07/06/24 14:39:56:740 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:39:56:749 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:56:764 - TLibNFeConfig.AjustarValor(tfGravar,Principal,TipoResposta,2)
+07/06/24 14:39:56:776 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:56:792 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:56:805 - Travar
+07/06/24 14:39:56:822 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:56:834 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:56:845 - Destravar
+07/06/24 14:39:56:860 -    SetRetorno(0, )
+07/06/24 14:39:56:876 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:39:56:892 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:56:904 - LIB_ConfigGravarValor(Principal, CodificacaoResposta, 0)
+07/06/24 14:39:56:918 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:39:56:930 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:56:942 - TLibNFeConfig.AjustarValor(tfGravar,Principal,CodificacaoResposta,0)
+07/06/24 14:39:56:956 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:56:972 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:56:985 - Travar
+07/06/24 14:39:56:997 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:57:006 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:57:014 - Destravar
+07/06/24 14:39:57:021 -    SetRetorno(0, )
+07/06/24 14:39:57:029 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:39:57:039 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:050 - LIB_ConfigGravarValor(Principal, LogNivel, 4)
+07/06/24 14:39:57:060 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:39:57:069 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:077 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogNivel,4)
+07/06/24 14:39:57:094 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:57:111 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:57:126 - Travar
+07/06/24 14:39:57:143 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:57:156 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:57:170 - Destravar
+07/06/24 14:39:57:182 -    SetRetorno(0, )
+07/06/24 14:39:57:190 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:39:57:208 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:221 - LIB_ConfigGravarValor(Principal, LogPath, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:39:57:267 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:39:57:280 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:290 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogPath,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:39:57:301 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:57:317 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:57:334 - Travar
+07/06/24 14:39:57:356 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:57:374 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:57:392 - Destravar
+07/06/24 14:39:57:404 -    SetRetorno(0, )
+07/06/24 14:39:57:413 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:39:57:432 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:439 - LIB_ConfigGravarValor(NFe, FormaEmissao, 0)
+07/06/24 14:39:57:446 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:39:57:458 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:467 - TLibNFeConfig.AjustarValor(tfGravar,NFe,FormaEmissao,0)
+07/06/24 14:39:57:482 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:57:497 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:57:512 - Travar
+07/06/24 14:39:57:529 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:57:545 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:57:555 - Destravar
+07/06/24 14:39:57:571 -    SetRetorno(0, )
+07/06/24 14:39:57:587 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:39:57:601 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:613 - LIB_ConfigGravarValor(NFe, SalvarGer, 0)
+07/06/24 14:39:57:623 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:39:57:630 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:637 - TLibNFeConfig.AjustarValor(tfGravar,NFe,SalvarGer,0)
+07/06/24 14:39:57:648 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:57:661 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:57:671 - Travar
+07/06/24 14:39:57:680 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:57:689 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:57:696 - Destravar
+07/06/24 14:39:57:704 -    SetRetorno(0, )
+07/06/24 14:39:57:712 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:39:57:719 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:726 - LIB_ConfigGravarValor(NFe, ExibirErroSchema, 1)
+07/06/24 14:39:57:743 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:39:57:759 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:769 - TLibNFeConfig.AjustarValor(tfGravar,NFe,ExibirErroSchema,1)
+07/06/24 14:39:57:776 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:57:787 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:57:798 - Travar
+07/06/24 14:39:57:814 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:57:829 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:57:842 - Destravar
+07/06/24 14:39:57:859 -    SetRetorno(0, )
+07/06/24 14:39:57:876 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:39:57:891 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:907 - LIB_ConfigGravarValor(NFe, PathSalvar, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:39:57:923 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:39:57:938 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:57:954 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSalvar,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:39:57:970 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:57:979 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:57:987 - Travar
+07/06/24 14:39:57:995 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:58:003 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:58:011 - Destravar
+07/06/24 14:39:58:019 -    SetRetorno(0, )
+07/06/24 14:39:58:026 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:39:58:033 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:041 - LIB_ConfigGravarValor(NFe, PathSchemas, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:39:58:049 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:39:58:056 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:064 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSchemas,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:39:58:079 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:58:095 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:58:110 - Travar
+07/06/24 14:39:58:125 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:58:141 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:58:151 - Destravar
+07/06/24 14:39:58:159 -    SetRetorno(0, )
+07/06/24 14:39:58:174 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:39:58:189 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:204 - LIB_ConfigGravarValor(NFe, PathNFe, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:39:58:220 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:39:58:233 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:247 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathNFe,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:39:58:262 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:58:278 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:58:294 - Travar
+07/06/24 14:39:58:305 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:58:316 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:58:324 - Destravar
+07/06/24 14:39:58:340 -    SetRetorno(0, )
+07/06/24 14:39:58:355 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:39:58:372 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:389 - LIB_ConfigGravarValor(NFe, IniServicos, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:39:58:405 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:39:58:422 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:439 - TLibNFeConfig.AjustarValor(tfGravar,NFe,IniServicos,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:39:58:453 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:58:475 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:58:487 - Travar
+07/06/24 14:39:58:499 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:58:509 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:58:518 - Destravar
+07/06/24 14:39:58:528 -    SetRetorno(0, )
+07/06/24 14:39:58:538 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:39:58:549 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:573 - LIB_ConfigGravarValor(DFe, ArquivoPFX, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:39:58:591 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:39:58:637 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:651 - TLibNFeConfig.AjustarValor(tfGravar,DFe,ArquivoPFX,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:39:58:660 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:58:669 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:58:676 - Travar
+07/06/24 14:39:58:684 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:58:692 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:58:705 - Destravar
+07/06/24 14:39:58:720 -    SetRetorno(0, )
+07/06/24 14:39:58:730 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:39:58:737 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:39:58:745 - LIB_ConfigGravarValor(DFe, Senha, ********)
+07/06/24 14:39:58:753 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:39:58:761 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:39:58:768 - TLibNFeConfig.AjustarValor(tfGravar,DFe,Senha,********)
+07/06/24 14:39:58:781 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:58:793 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:58:808 - Travar
+07/06/24 14:39:58:826 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:58:837 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:58:848 - Destravar
+07/06/24 14:39:58:858 -    SetRetorno(0, )
+07/06/24 14:39:58:866 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:39:58:873 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:888 - LIB_ConfigGravarValor(DFe, SSLCryptLib, 1)
+07/06/24 14:39:58:904 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:39:58:919 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:58:928 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLCryptLib,1)
+07/06/24 14:39:58:936 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:58:943 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:58:951 - Travar
+07/06/24 14:39:58:959 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:58:975 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:58:991 - Destravar
+07/06/24 14:39:59:008 -    SetRetorno(0, )
+07/06/24 14:39:59:025 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:39:59:041 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:59:051 - LIB_ConfigGravarValor(DFe, SSLHttpLib, 0)
+07/06/24 14:39:59:061 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:39:59:077 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:59:092 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLHttpLib,0)
+07/06/24 14:39:59:102 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:59:112 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:59:124 - Travar
+07/06/24 14:39:59:135 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:59:144 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:59:160 - Destravar
+07/06/24 14:39:59:177 -    SetRetorno(0, )
+07/06/24 14:39:59:195 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:39:59:211 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:59:228 - LIB_ConfigGravarValor(DFe, SSLXmlSignLib, 4)
+07/06/24 14:39:59:244 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:39:59:262 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:59:272 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLXmlSignLib,4)
+07/06/24 14:39:59:280 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:59:287 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:59:295 - Travar
+07/06/24 14:39:59:303 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:59:311 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:59:319 - Destravar
+07/06/24 14:39:59:326 -    SetRetorno(0, )
+07/06/24 14:39:59:334 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:39:59:342 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:59:350 - LIB_ConfigGravarValor(DANFE, PathPDF, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:39:59:364 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:39:59:376 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:39:59:387 - TLibNFeConfig.AjustarValor(tfGravar,DANFE,PathPDF,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:39:59:395 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:39:59:412 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:39:59:422 - Travar
+07/06/24 14:39:59:437 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:39:59:450 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:39:59:474 - Destravar
+07/06/24 14:39:59:489 -    SetRetorno(0, )
+07/06/24 14:39:59:503 - NFE_CarregarINI(C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\nfe.INI )
+07/06/24 14:39:59:512 - Travar
+07/06/24 14:39:59:523 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:39:59:537 - Destravar
+07/06/24 14:39:59:546 - NFe_Assinar
+07/06/24 14:39:59:556 - Travar
+07/06/24 14:39:59:633 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:39:59:649 - Destravar
+07/06/24 14:39:59:668 - NFE_Validar
+07/06/24 14:39:59:679 - Travar
+07/06/24 14:39:59:710 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:39:59:722 - Destravar
+07/06/24 14:39:59:733 - NFE_ObterIni(0 )
+07/06/24 14:39:59:741 - Travar
+07/06/24 14:39:59:753 - Destravar
+07/06/24 14:39:59:761 -    SetRetorno(-10, Access violation)
+07/06/24 14:39:59:776 - LIB_UltimoRetorno
+07/06/24 14:39:59:788 -    SetRetorno(-10, Access violation)
+07/06/24 14:39:59:801 - LIB_Finalizar
+07/06/24 14:39:59:808 - Finalizar
+07/06/24 14:42:32:274 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:32:274 - Travar
+07/06/24 14:42:32:282 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:32:299 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:32:312 - Destravar
+07/06/24 14:42:32:328 - TLibNFeConfig.Ler - Feito
+07/06/24 14:42:32:344 - Destravar
+07/06/24 14:42:32:362 - TACBrLibNFe.Inicializar - Feito
+07/06/24 14:42:32:377 - LIB_Inicializar( C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini, ************** )
+07/06/24 14:42:32:395 -    ACBrLibNFE Demo - 0.4.6.272
+07/06/24 14:42:32:411 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:42:32:423 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:32:432 - LIB_ConfigGravarValor(Principal, TipoResposta, 2)
+07/06/24 14:42:32:440 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:42:32:451 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:32:464 - TLibNFeConfig.AjustarValor(tfGravar,Principal,TipoResposta,2)
+07/06/24 14:42:32:478 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:32:494 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:32:512 - Travar
+07/06/24 14:42:32:530 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:32:546 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:32:562 - Destravar
+07/06/24 14:42:32:576 -    SetRetorno(0, )
+07/06/24 14:42:32:592 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:42:32:604 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:32:613 - LIB_ConfigGravarValor(Principal, CodificacaoResposta, 0)
+07/06/24 14:42:32:625 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:42:32:641 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:32:658 - TLibNFeConfig.AjustarValor(tfGravar,Principal,CodificacaoResposta,0)
+07/06/24 14:42:32:672 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:32:684 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:32:697 - Travar
+07/06/24 14:42:32:711 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:32:726 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:32:744 - Destravar
+07/06/24 14:42:32:757 -    SetRetorno(0, )
+07/06/24 14:42:32:770 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:42:32:787 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:32:802 - LIB_ConfigGravarValor(Principal, LogNivel, 4)
+07/06/24 14:42:32:820 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:42:32:836 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:32:853 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogNivel,4)
+07/06/24 14:42:32:864 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:32:879 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:32:893 - Travar
+07/06/24 14:42:32:911 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:32:928 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:32:940 - Destravar
+07/06/24 14:42:32:957 -    SetRetorno(0, )
+07/06/24 14:42:32:971 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:42:32:987 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:001 - LIB_ConfigGravarValor(Principal, LogPath, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:42:33:014 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:42:33:031 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:044 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogPath,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:42:33:054 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:33:071 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:33:084 - Travar
+07/06/24 14:42:33:100 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:33:109 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:33:118 - Destravar
+07/06/24 14:42:33:130 -    SetRetorno(0, )
+07/06/24 14:42:33:137 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:42:33:144 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:151 - LIB_ConfigGravarValor(NFe, FormaEmissao, 0)
+07/06/24 14:42:33:159 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:42:33:167 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:175 - TLibNFeConfig.AjustarValor(tfGravar,NFe,FormaEmissao,0)
+07/06/24 14:42:33:190 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:33:205 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:33:220 - Travar
+07/06/24 14:42:33:235 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:33:244 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:33:258 - Destravar
+07/06/24 14:42:33:274 -    SetRetorno(0, )
+07/06/24 14:42:33:288 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:42:33:299 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:317 - LIB_ConfigGravarValor(NFe, SalvarGer, 0)
+07/06/24 14:42:33:334 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:42:33:352 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:362 - TLibNFeConfig.AjustarValor(tfGravar,NFe,SalvarGer,0)
+07/06/24 14:42:33:377 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:33:389 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:33:403 - Travar
+07/06/24 14:42:33:417 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:33:430 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:33:443 - Destravar
+07/06/24 14:42:33:459 -    SetRetorno(0, )
+07/06/24 14:42:33:473 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:42:33:487 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:500 - LIB_ConfigGravarValor(NFe, ExibirErroSchema, 1)
+07/06/24 14:42:33:516 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:42:33:526 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:544 - TLibNFeConfig.AjustarValor(tfGravar,NFe,ExibirErroSchema,1)
+07/06/24 14:42:33:560 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:33:576 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:33:588 - Travar
+07/06/24 14:42:33:604 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:33:615 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:33:622 - Destravar
+07/06/24 14:42:33:640 -    SetRetorno(0, )
+07/06/24 14:42:33:653 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:42:33:666 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:681 - LIB_ConfigGravarValor(NFe, PathSalvar, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:42:33:692 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:42:33:708 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:724 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSalvar,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:42:33:733 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:33:749 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:33:771 - Travar
+07/06/24 14:42:33:787 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:33:795 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:33:802 - Destravar
+07/06/24 14:42:33:811 -    SetRetorno(0, )
+07/06/24 14:42:33:818 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:42:33:826 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:833 - LIB_ConfigGravarValor(NFe, PathSchemas, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:42:33:842 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:42:33:848 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:856 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSchemas,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:42:33:863 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:33:871 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:33:880 - Travar
+07/06/24 14:42:33:892 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:33:903 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:33:914 - Destravar
+07/06/24 14:42:33:923 -    SetRetorno(0, )
+07/06/24 14:42:33:939 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:42:33:955 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:33:965 - LIB_ConfigGravarValor(NFe, PathNFe, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:42:33:974 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:42:33:982 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:000 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathNFe,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:42:34:014 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:34:031 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:34:047 - Travar
+07/06/24 14:42:34:062 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:34:076 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:34:084 - Destravar
+07/06/24 14:42:34:091 -    SetRetorno(0, )
+07/06/24 14:42:34:098 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:42:34:106 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:123 - LIB_ConfigGravarValor(NFe, IniServicos, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:42:34:139 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:42:34:156 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:173 - TLibNFeConfig.AjustarValor(tfGravar,NFe,IniServicos,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:42:34:191 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:34:207 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:34:218 - Travar
+07/06/24 14:42:34:226 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:34:234 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:34:248 - Destravar
+07/06/24 14:42:34:263 -    SetRetorno(0, )
+07/06/24 14:42:34:279 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:42:34:289 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:306 - LIB_ConfigGravarValor(DFe, ArquivoPFX, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:42:34:323 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:42:34:339 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:357 - TLibNFeConfig.AjustarValor(tfGravar,DFe,ArquivoPFX,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:42:34:374 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:34:385 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:34:406 - Travar
+07/06/24 14:42:34:424 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:34:435 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:34:446 - Destravar
+07/06/24 14:42:34:453 -    SetRetorno(0, )
+07/06/24 14:42:34:461 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:42:34:470 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:42:34:486 - LIB_ConfigGravarValor(DFe, Senha, ********)
+07/06/24 14:42:34:503 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:42:34:519 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:42:34:534 - TLibNFeConfig.AjustarValor(tfGravar,DFe,Senha,********)
+07/06/24 14:42:34:551 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:34:568 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:34:585 - Travar
+07/06/24 14:42:34:631 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:34:649 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:34:665 - Destravar
+07/06/24 14:42:34:680 -    SetRetorno(0, )
+07/06/24 14:42:34:695 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:42:34:711 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:723 - LIB_ConfigGravarValor(DFe, SSLCryptLib, 1)
+07/06/24 14:42:34:735 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:42:34:748 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:765 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLCryptLib,1)
+07/06/24 14:42:34:778 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:34:790 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:34:804 - Travar
+07/06/24 14:42:34:821 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:34:837 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:34:848 - Destravar
+07/06/24 14:42:34:856 -    SetRetorno(0, )
+07/06/24 14:42:34:864 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:42:34:872 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:887 - LIB_ConfigGravarValor(DFe, SSLHttpLib, 0)
+07/06/24 14:42:34:916 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:42:34:933 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:34:946 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLHttpLib,0)
+07/06/24 14:42:34:955 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:34:962 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:34:970 - Travar
+07/06/24 14:42:34:979 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:34:995 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:35:010 - Destravar
+07/06/24 14:42:35:022 -    SetRetorno(0, )
+07/06/24 14:42:35:033 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:42:35:050 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:35:068 - LIB_ConfigGravarValor(DFe, SSLXmlSignLib, 4)
+07/06/24 14:42:35:089 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:42:35:106 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:35:119 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLXmlSignLib,4)
+07/06/24 14:42:35:135 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:35:146 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:35:154 - Travar
+07/06/24 14:42:35:164 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:35:170 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:35:178 - Destravar
+07/06/24 14:42:35:185 -    SetRetorno(0, )
+07/06/24 14:42:35:193 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:42:35:209 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:35:226 - LIB_ConfigGravarValor(DANFE, PathPDF, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:42:35:243 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:42:35:257 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:42:35:268 - TLibNFeConfig.AjustarValor(tfGravar,DANFE,PathPDF,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:42:35:279 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:42:35:295 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:42:35:310 - Travar
+07/06/24 14:42:35:328 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:42:35:345 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:42:35:360 - Destravar
+07/06/24 14:42:35:406 -    SetRetorno(0, )
+07/06/24 14:42:35:426 - NFE_CarregarINI(C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\nfe.INI )
+07/06/24 14:42:35:441 - Travar
+07/06/24 14:42:35:459 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:42:35:471 - Destravar
+07/06/24 14:42:35:486 - NFe_Assinar
+07/06/24 14:42:35:498 - Travar
+07/06/24 14:42:35:536 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:42:35:553 - Destravar
+07/06/24 14:42:35:569 - NFE_Validar
+07/06/24 14:42:35:584 - Travar
+07/06/24 14:42:35:622 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:42:35:635 - Destravar
+07/06/24 14:42:35:649 - NFE_ObterIni(0 )
+07/06/24 14:42:35:662 - Travar
+07/06/24 14:42:35:675 - Destravar
+07/06/24 14:42:35:690 -    SetRetorno(-10, Access violation)
+07/06/24 14:42:35:704 - LIB_UltimoRetorno
+07/06/24 14:42:35:715 -    MoverStringParaPChar. StrLen:16, BufLen:9096
+07/06/24 14:42:35:729 -    Codigo:-10, Mensagem:Access violation
+07/06/24 14:42:35:749 - LIB_Finalizar
+07/06/24 14:42:35:759 - Finalizar
+07/06/24 14:43:11:344 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:11:344 - Travar
+07/06/24 14:43:11:355 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:11:372 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:11:388 - Destravar
+07/06/24 14:43:11:406 - TLibNFeConfig.Ler - Feito
+07/06/24 14:43:11:422 - Destravar
+07/06/24 14:43:11:439 - TACBrLibNFe.Inicializar - Feito
+07/06/24 14:43:11:455 - LIB_Inicializar( C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini, ************** )
+07/06/24 14:43:11:474 -    ACBrLibNFE Demo - 0.4.6.272
+07/06/24 14:43:11:488 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:43:11:497 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:11:512 - LIB_ConfigGravarValor(Principal, TipoResposta, 2)
+07/06/24 14:43:11:528 - TACBrLibNFe.PrecisaCriptografar(Principal,TipoResposta)
+07/06/24 14:43:11:579 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:11:593 - TLibNFeConfig.AjustarValor(tfGravar,Principal,TipoResposta,2)
+07/06/24 14:43:11:606 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:11:615 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:11:632 - Travar
+07/06/24 14:43:11:650 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:11:663 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:11:679 - Destravar
+07/06/24 14:43:11:690 -    SetRetorno(0, )
+07/06/24 14:43:11:701 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:43:11:717 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:11:732 - LIB_ConfigGravarValor(Principal, CodificacaoResposta, 0)
+07/06/24 14:43:11:743 - TACBrLibNFe.PrecisaCriptografar(Principal,CodificacaoResposta)
+07/06/24 14:43:11:758 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:11:770 - TLibNFeConfig.AjustarValor(tfGravar,Principal,CodificacaoResposta,0)
+07/06/24 14:43:11:780 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:11:796 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:11:810 - Travar
+07/06/24 14:43:11:820 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:11:833 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:11:849 - Destravar
+07/06/24 14:43:11:866 -    SetRetorno(0, )
+07/06/24 14:43:11:881 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:43:11:895 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:11:906 - LIB_ConfigGravarValor(Principal, LogNivel, 4)
+07/06/24 14:43:11:923 - TACBrLibNFe.PrecisaCriptografar(Principal,LogNivel)
+07/06/24 14:43:11:939 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:11:951 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogNivel,4)
+07/06/24 14:43:11:970 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:11:984 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:11:997 - Travar
+07/06/24 14:43:12:007 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:12:057 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:12:071 - Destravar
+07/06/24 14:43:12:089 -    SetRetorno(0, )
+07/06/24 14:43:12:101 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:43:12:117 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:134 - LIB_ConfigGravarValor(Principal, LogPath, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:43:12:150 - TACBrLibNFe.PrecisaCriptografar(Principal,LogPath)
+07/06/24 14:43:12:168 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:184 - TLibNFeConfig.AjustarValor(tfGravar,Principal,LogPath,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\Log)
+07/06/24 14:43:12:197 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:12:210 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:12:222 - Travar
+07/06/24 14:43:12:231 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:12:237 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:12:245 - Destravar
+07/06/24 14:43:12:251 -    SetRetorno(0, )
+07/06/24 14:43:12:258 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:43:12:266 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:273 - LIB_ConfigGravarValor(NFe, FormaEmissao, 0)
+07/06/24 14:43:12:280 - TACBrLibNFe.PrecisaCriptografar(NFe,FormaEmissao)
+07/06/24 14:43:12:287 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:294 - TLibNFeConfig.AjustarValor(tfGravar,NFe,FormaEmissao,0)
+07/06/24 14:43:12:309 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:12:326 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:12:340 - Travar
+07/06/24 14:43:12:349 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:12:358 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:12:366 - Destravar
+07/06/24 14:43:12:381 -    SetRetorno(0, )
+07/06/24 14:43:12:397 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:43:12:413 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:431 - LIB_ConfigGravarValor(NFe, SalvarGer, 0)
+07/06/24 14:43:12:447 - TACBrLibNFe.PrecisaCriptografar(NFe,SalvarGer)
+07/06/24 14:43:12:456 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:468 - TLibNFeConfig.AjustarValor(tfGravar,NFe,SalvarGer,0)
+07/06/24 14:43:12:476 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:12:502 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:12:513 - Travar
+07/06/24 14:43:12:521 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:12:535 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:12:552 - Destravar
+07/06/24 14:43:12:561 -    SetRetorno(0, )
+07/06/24 14:43:12:569 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:43:12:576 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:588 - LIB_ConfigGravarValor(NFe, ExibirErroSchema, 1)
+07/06/24 14:43:12:605 - TACBrLibNFe.PrecisaCriptografar(NFe,ExibirErroSchema)
+07/06/24 14:43:12:620 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:636 - TLibNFeConfig.AjustarValor(tfGravar,NFe,ExibirErroSchema,1)
+07/06/24 14:43:12:653 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:12:670 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:12:688 - Travar
+07/06/24 14:43:12:705 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:12:718 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:12:730 - Destravar
+07/06/24 14:43:12:744 -    SetRetorno(0, )
+07/06/24 14:43:12:760 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:43:12:774 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:788 - LIB_ConfigGravarValor(NFe, PathSalvar, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:43:12:806 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSalvar)
+07/06/24 14:43:12:823 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:833 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSalvar,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:43:12:840 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:12:850 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:12:857 - Travar
+07/06/24 14:43:12:874 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:12:889 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:12:902 - Destravar
+07/06/24 14:43:12:918 -    SetRetorno(0, )
+07/06/24 14:43:12:936 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:43:12:952 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:12:967 - LIB_ConfigGravarValor(NFe, PathSchemas, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:43:12:978 - TACBrLibNFe.PrecisaCriptografar(NFe,PathSchemas)
+07/06/24 14:43:12:995 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:005 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathSchemas,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\Schemas\NFe)
+07/06/24 14:43:13:016 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:13:032 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:13:048 - Travar
+07/06/24 14:43:13:059 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:13:074 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:13:090 - Destravar
+07/06/24 14:43:13:106 -    SetRetorno(0, )
+07/06/24 14:43:13:124 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:43:13:133 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:148 - LIB_ConfigGravarValor(NFe, PathNFe, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:43:13:165 - TACBrLibNFe.PrecisaCriptografar(NFe,PathNFe)
+07/06/24 14:43:13:178 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:190 - TLibNFeConfig.AjustarValor(tfGravar,NFe,PathNFe,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\xmlDir)
+07/06/24 14:43:13:201 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:13:215 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:13:230 - Travar
+07/06/24 14:43:13:247 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:13:259 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:13:270 - Destravar
+07/06/24 14:43:13:278 -    SetRetorno(0, )
+07/06/24 14:43:13:285 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:43:13:293 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:301 - LIB_ConfigGravarValor(NFe, IniServicos, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:43:13:308 - TACBrLibNFe.PrecisaCriptografar(NFe,IniServicos)
+07/06/24 14:43:13:315 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:323 - TLibNFeConfig.AjustarValor(tfGravar,NFe,IniServicos,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\ACBrNFeServicos.ini)
+07/06/24 14:43:13:334 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:13:349 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:13:366 - Travar
+07/06/24 14:43:13:383 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:13:398 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:13:412 - Destravar
+07/06/24 14:43:13:420 -    SetRetorno(0, )
+07/06/24 14:43:13:429 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:43:13:449 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:465 - LIB_ConfigGravarValor(DFe, ArquivoPFX, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:43:13:479 - TACBrLibNFe.PrecisaCriptografar(DFe,ArquivoPFX)
+07/06/24 14:43:13:490 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:499 - TLibNFeConfig.AjustarValor(tfGravar,DFe,ArquivoPFX,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\certificadoDigital\server.pfx)
+07/06/24 14:43:13:506 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:13:514 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:13:528 - Travar
+07/06/24 14:43:13:543 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:13:593 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:13:611 - Destravar
+07/06/24 14:43:13:626 -    SetRetorno(0, )
+07/06/24 14:43:13:643 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:43:13:659 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:43:13:680 - LIB_ConfigGravarValor(DFe, Senha, ********)
+07/06/24 14:43:13:697 - TACBrLibNFe.PrecisaCriptografar(DFe,Senha)
+07/06/24 14:43:13:706 - TACBrLibNFe.PrecisaCriptografar - Feito Result: True
+07/06/24 14:43:13:715 - TLibNFeConfig.AjustarValor(tfGravar,DFe,Senha,********)
+07/06/24 14:43:13:724 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:13:732 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:13:739 - Travar
+07/06/24 14:43:13:748 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:13:755 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:13:767 - Destravar
+07/06/24 14:43:13:780 -    SetRetorno(0, )
+07/06/24 14:43:13:792 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:43:13:804 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:817 - LIB_ConfigGravarValor(DFe, SSLCryptLib, 1)
+07/06/24 14:43:13:826 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLCryptLib)
+07/06/24 14:43:13:835 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:849 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLCryptLib,1)
+07/06/24 14:43:13:866 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:13:881 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:13:895 - Travar
+07/06/24 14:43:13:912 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:13:925 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:13:936 - Destravar
+07/06/24 14:43:13:943 -    SetRetorno(0, )
+07/06/24 14:43:13:950 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:43:13:957 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:13:965 - LIB_ConfigGravarValor(DFe, SSLHttpLib, 0)
+07/06/24 14:43:13:978 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLHttpLib)
+07/06/24 14:43:13:990 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:14:003 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLHttpLib,0)
+07/06/24 14:43:14:015 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:14:025 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:14:034 - Travar
+07/06/24 14:43:14:042 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:14:049 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:14:060 - Destravar
+07/06/24 14:43:14:072 -    SetRetorno(0, )
+07/06/24 14:43:14:087 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:43:14:102 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:14:116 - LIB_ConfigGravarValor(DFe, SSLXmlSignLib, 4)
+07/06/24 14:43:14:128 - TACBrLibNFe.PrecisaCriptografar(DFe,SSLXmlSignLib)
+07/06/24 14:43:14:139 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:14:154 - TLibNFeConfig.AjustarValor(tfGravar,DFe,SSLXmlSignLib,4)
+07/06/24 14:43:14:165 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:14:176 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:14:192 - Travar
+07/06/24 14:43:14:209 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:14:221 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:14:238 - Destravar
+07/06/24 14:43:14:261 -    SetRetorno(0, )
+07/06/24 14:43:14:276 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:43:14:293 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:14:304 - LIB_ConfigGravarValor(DANFE, PathPDF, C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:43:14:323 - TACBrLibNFe.PrecisaCriptografar(DANFE,PathPDF)
+07/06/24 14:43:14:336 - TACBrLibNFe.PrecisaCriptografar - Feito Result: False
+07/06/24 14:43:14:350 - TLibNFeConfig.AjustarValor(tfGravar,DANFE,PathPDF,C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI)
+07/06/24 14:43:14:365 - TLibNFeConfig.AjustarValor - Feito
+07/06/24 14:43:14:381 - TLibNFeConfig.AplicarConfiguracoes: C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\ACBrLib\NFeConfig.ini
+07/06/24 14:43:14:396 - Travar
+07/06/24 14:43:14:407 - Modo DEMO - Forçando ambiente para Homologação
+07/06/24 14:43:14:414 - TLibNFeConfig.AplicarConfiguracoes - Feito
+07/06/24 14:43:14:421 - Destravar
+07/06/24 14:43:14:429 -    SetRetorno(0, )
+07/06/24 14:43:14:444 - NFE_CarregarINI(C:\Users\Caio-DH\Documents\APIdoHera\DesenvolvimentoAPI\config\nfe.INI )
+07/06/24 14:43:14:456 - Travar
+07/06/24 14:43:14:472 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:43:14:484 - Destravar
+07/06/24 14:43:14:495 - NFe_Assinar
+07/06/24 14:43:14:509 - Travar
+07/06/24 14:43:14:544 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:43:14:559 - Destravar
+07/06/24 14:43:14:573 - NFE_Validar
+07/06/24 14:43:14:582 - Travar
+07/06/24 14:43:14:615 -    SetRetorno(0, 1 NFe(s) Carregada(s))
+07/06/24 14:43:14:631 - Destravar
+07/06/24 14:43:14:649 - NFE_ObterIni(0 )
+07/06/24 14:43:14:668 - Travar
+07/06/24 14:43:14:685 -    MoverStringParaPChar. StrLen:4173, BufLen:9096
+07/06/24 14:43:14:705 -    SetRetorno(0, [infNFe]
+ID=NFe35180926459761000108558950000014011624946375
+Versao=4
+[Identificacao]
+cUF=35
+cNF=62494637
+natOp=Venda de Mercadoria
+indPag=0
+Modelo=55
+Serie=895
+nNF=1401
+dhEmi=14/09/2018 10:00:50
+dhSaiEnt=30/12/1899
+tpNF=1
+idDest=1
+cMunFG=3554003
+tpAmb=2
+tpImp=1
+tpemis=1
+finNFe=1
+indFinal=0
+indPres=9
+indIntermed=
+procEmi=0
+verProc=ACBrNFe
+dhCont=30/12/1899 00:00:00
+xJust=
+[Emitente]
+CNPJCPF=26459761000108
+xNome=DIOGENES HENRIQUE PEREIRA BARBOZA
+xFant=DH Consulting
+IE=999999999999
+IEST=
+IM=
+CNAE=
+CRT=1
+xLgr=Rua Cel Aureliano Camargo
+nro=973
+xCpl=
+xBairro=Centro
+cMun=3554003
+xMun=Tatui
+UF=SP
+CEP=18270000
+cPais=1058
+xPais=BRASIL
+Fone=(11)9999-9999
+[Destinatario]
+CNPJCPF=99999999999999
+xNome=PROJETO ACBR
+indIEDest=1
+IE=999999999999
+ISUF=
+IM=
+Email=acbr@projetoacbr.com.br
+xLgr=Rua das Flores
+nro=973
+xCpl=
+xBairro=Centro
+cMun=3550308
+xMun=Sao Paulo
+UF=SP
+CEP=4615000
+cPais=1058
+xPais=BRASIL
+Fone=(11)9999-9999
+[Produto001]
+nItem=1
+infAdProd=
+cProd=0000020
+cEAN=SEM GTIN
+cBarra=
+xProd=KIT INDIVIDUAL VIDRO
+NCM=84719012
+CEST=
+indEscala=
+CNPJFab=
+cBenef=12345678
+EXTIPI=
+CFOP=5403
+uCom=UND
+qCom=1
+vUnCom=100
+vProd=100
+cEANTrib=SEM GTIN
+cBarraTrib=
+uTrib=UND
+qTrib=1
+vUnTrib=100
+vFrete=0
+vSeg=0
+vDesc=0
+vOutro=0
+IndTot=1
+xPed=
+nItemPed=
+nFCI=
+nRECOPI=
+pDevol=0
+vIPIDevol=0
+vTotTrib=0
+[ICMS001]
+orig=0
+CST=
+CSOSN=102
+modBC=
+pRedBC=0
+cBenefRBC=
+vBC=0
+pICMS=0
+vICMS=0
+vBCFCP=0
+pFCP=0
+vFCP=0
+modBCST=
+pMVAST=0
+pRedBCST=0
+vBCST=0
+pICMSST=0
+vICMSST=0
+vBCFCPST=0
+pFCPST=0
+vFCPST=0
+UFST=
+pBCOp=0
+vBCSTRet=0
+pST=0
+vICMSSTRet=0
+vBCFCPSTRet=0
+pFCPSTRet=0
+vFCPSTRet=0
+motDesICMS=
+pCredSN=0
+vCredICMSSN=0
+vBCSTDest=0
+vICMSSTDest=0
+vICMSDeson=0
+vICMSOp=0
+pDif=0
+vICMSDif=0
+pRedBCEfet=0
+vBCEfet=0
+pICMSEfet=0
+vICMSEfet=0
+vICMSSubstituto=0
+vICMSSTDeson=0
+motDesICMSST=1
+pFCPDif=0
+vFCPDif=0
+vFCPEfet=0
+adRemICMS=0
+vICMSMono=0
+adRemICMSReten=0
+vICMSMonoReten=0
+vICMSMonoDif=0
+adRemICMSRet=0
+vICMSMonoRet=0
+qBCMono=0
+qBCMonoReten=0
+pRedAdRem=0
+motRedAdRem=1
+qBCMonoRet=0
+vICMSMonoOp=0
+indDeduzDeson=
+[ICMSUFDEST001]
+vBCUFDest=0
+vBCFCPUFDest=0
+pICMSUFDest=0
+pICMSInter=0
+pICMSInterPart=0
+vICMSUFDest=0
+vICMSUFRemet=0
+pFCPUFDest=0
+vFCPUFDest=0
+[IPI001]
+CST=99
+cEnq=999
+clEnq=
+CNPJProd=
+cSelo=
+qSelo=0
+vBC=0
+qUnid=0
+vUnid=0
+pIPI=0
+vIPI=0
+[PIS001]
+CST=99
+vBC=0
+pPIS=0
+qBCProd=0
+vAliqProd=0
+vPIS=0
+[COFINS001]
+CST=99
+vBC=0
+pCOFINS=0
+qBCProd=0
+vAliqProd=0
+vCOFINS=0
+[Total]
+vBC=0
+vICMS=0
+vICMSDeson=0
+vFCP=0
+vICMSUFDest=0
+vICMSUFRemet=0
+vFCPUFDest=0
+vBCST=0
+vST=0
+vFCPST=0
+vFCPSTRet=0
+qBCMono=0
+vICMSMono=0
+qBCMonoReten=0
+vICMSMonoReten=0
+qBCMonoRet=0
+vICMSMonoRet=0
+vProd=100
+vFrete=0
+vSeg=0
+vDesc=0
+vII=0
+vIPI=0
+vIPIDevol=0
+vPIS=0
+vCOFINS=0
+vOutro=0
+vNF=100
+vTotTrib=0
+[ISSQNtot]
+vServ=0
+vBC=0
+vISS=0
+vPIS=0
+vCOFINS=0
+dCompet=30/12/1899
+vDeducao=0
+vOutro=0
+vDescIncond=0
+vDescCond=0
+vISSRet=0
+cRegTrib=0
+[retTrib]
+vRetPIS=0
+vRetCOFINS=0
+vRetCSLL=0
+vBCIRRF=0
+vIRRF=0
+vBCRetPrev=0
+vRetPrev=0
+[Transportador]
+modFrete=1
+CNPJCPF=99999999999999
+xNome=Transportadora MM
+IE=999999999999
+xEnder=Rua Cel Aureliano Camargo
+xMun=Tatui
+UF=SP
+vServ=0
+vBCRet=0
+pICMSRet=0
+vICMSRet=0
+CFOP=5356
+cMunFG=3554003
+Placa=ABC1212
+UFPlaca=SP
+RNTC=22222222
+vagao=
+balsa=
+[Volume001]
+qVol=1
+esp=CX
+marca=
+nVol=1
+pesoL=31
+pesoB=31
+[Fatura]
+nFat=1200
+vOrig=80
+vDesc=0
+vLiq=80
+[Duplicata001]
+nDup=001
+dVenc=19/10/2018
+vDup=80
+[pag001]
+tPag=01
+xPag=Descricao Pagamento
+vPag=20
+dPag=30/12/1899
+CNPJPag=
+UFPag=
+indPag=0
+tpIntegra=
+CNPJ=
+tBand=
+cAut=
+CNPJReceb=
+idTermPag=
+[pag002]
+tPag=15
+xPag=
+vPag=80
+dPag=30/12/1899
+CNPJPag=
+UFPag=
+indPag=1
+tpIntegra=
+CNPJ=
+tBand=
+cAut=
+CNPJReceb=
+idTermPag=
+vTroco=0
+[infIntermed]
+CNPJ=
+idCadIntTran=
+[DadosAdicionais]
+infAdFisco=
+infCpl=
+[cana]
+safra=
+ref=
+qTotMes=0
+qTotAnt=0
+qTotGer=0
+vFor=0
+vTotDed=0
+vLiqFor=0
+[infRespTec]
+CNPJ=
+xContato=
+email=
+fone=
+[procNFe]
+tpAmb=1
+verAplic=
+chNFe=
+dhRecbto=30/12/1899
+nProt=
+digVal=
+cStat=0
+xMotivo=
+)
+07/06/24 14:43:14:719 - Destravar
+07/06/24 14:43:14:810 - LIB_UltimoRetorno
+07/06/24 14:43:14:825 -    MoverStringParaPChar. StrLen:4173, BufLen:4173
+07/06/24 14:43:14:841 -    Codigo:0, Mensagem:[infNFe][CR][LF]ID=NFe35180926459761000108558950000014011624946375[CR][LF]Versao=4[CR][LF][Identificacao][CR][LF]cUF=35[CR][LF]cNF=62494637[CR][LF]natOp=Venda de Mercadoria[CR][LF]indPag=0[CR][LF]Modelo=55[CR][LF]Serie=895[CR][LF]nNF=1401[CR][LF]dhEmi=14/09/2018 10:00:50[CR][LF]dhSaiEnt=30/12/1899[CR][LF]tpNF=1[CR][LF]idDest=1[CR][LF]cMunFG=3554003[CR][LF]tpAmb=2[CR][LF]tpImp=1[CR][LF]tpemis=1[CR][LF]finNFe=1[CR][LF]indFinal=0[CR][LF]indPres=9[CR][LF]indIntermed=[CR][LF]procEmi=0[CR][LF]verProc=ACBrNFe[CR][LF]dhCont=30/12/1899 00:00:00[CR][LF]xJust=[CR][LF][Emitente][CR][LF]CNPJCPF=26459761000108[CR][LF]xNome=DIOGENES HENRIQUE PEREIRA BARBOZA[CR][LF]xFant=DH Consulting[CR][LF]IE=999999999999[CR][LF]IEST=[CR][LF]IM=[CR][LF]CNAE=[CR][LF]CRT=1[CR][LF]xLgr=Rua Cel Aureliano Camargo[CR][LF]nro=973[CR][LF]xCpl=[CR][LF]xBairro=Centro[CR][LF]cMun=3554003[CR][LF]xMun=Tatui[CR][LF]UF=SP[CR][LF]CEP=18270000[CR][LF]cPais=1058[CR][LF]xPais=BRASIL[CR][LF]Fone=(11)9999-9999[CR][LF][Destinatario][CR][LF]CNPJCPF=99999999999999[CR][LF]xNome=PROJETO ACBR[CR][LF]indIEDest=1[CR][LF]IE=999999999999[CR][LF]ISUF=[CR][LF]IM=[CR][LF]Email=acbr@projetoacbr.com.br[CR][LF]xLgr=Rua das Flores[CR][LF]nro=973[CR][LF]xCpl=[CR][LF]xBairro=Centro[CR][LF]cMun=3550308[CR][LF]xMun=Sao Paulo[CR][LF]UF=SP[CR][LF]CEP=4615000[CR][LF]cPais=1058[CR][LF]xPais=BRASIL[CR][LF]Fone=(11)9999-9999[CR][LF][Produto001][CR][LF]nItem=1[CR][LF]infAdProd=[CR][LF]cProd=0000020[CR][LF]cEAN=SEM GTIN[CR][LF]cBarra=[CR][LF]xProd=KIT INDIVIDUAL VIDRO[CR][LF]NCM=84719012[CR][LF]CEST=[CR][LF]indEscala=[CR][LF]CNPJFab=[CR][LF]cBenef=12345678[CR][LF]EXTIPI=[CR][LF]CFOP=5403[CR][LF]uCom=UND[CR][LF]qCom=1[CR][LF]vUnCom=100[CR][LF]vProd=100[CR][LF]cEANTrib=SEM GTIN[CR][LF]cBarraTrib=[CR][LF]uTrib=UND[CR][LF]qTrib=1[CR][LF]vUnTrib=100[CR][LF]vFrete=0[CR][LF]vSeg=0[CR][LF]vDesc=0[CR][LF]vOutro=0[CR][LF]IndTot=1[CR][LF]xPed=[CR][LF]nItemPed=[CR][LF]nFCI=[CR][LF]nRECOPI=[CR][LF]pDevol=0[CR][LF]vIPIDevol=0[CR][LF]vTotTrib=0[CR][LF][ICMS001][CR][LF]orig=0[CR][LF]CST=[CR][LF]CSOSN=102[CR][LF]modBC=[CR][LF]pRedBC=0[CR][LF]cBenefRBC=[CR][LF]vBC=0[CR][LF]pICMS=0[CR][LF]vICMS=0[CR][LF]vBCFCP=0[CR][LF]pFCP=0[CR][LF]vFCP=0[CR][LF]modBCST=[CR][LF]pMVAST=0[CR][LF]pRedBCST=0[CR][LF]vBCST=0[CR][LF]pICMSST=0[CR][LF]vICMSST=0[CR][LF]vBCFCPST=0[CR][LF]pFCPST=0[CR][LF]vFCPST=0[CR][LF]UFST=[CR][LF]pBCOp=0[CR][LF]vBCSTRet=0[CR][LF]pST=0[CR][LF]vICMSSTRet=0[CR][LF]vBCFCPSTRet=0[CR][LF]pFCPSTRet=0[CR][LF]vFCPSTRet=0[CR][LF]motDesICMS=[CR][LF]pCredSN=0[CR][LF]vCredICMSSN=0[CR][LF]vBCSTDest=0[CR][LF]vICMSSTDest=0[CR][LF]vICMSDeson=0[CR][LF]vICMSOp=0[CR][LF]pDif=0[CR][LF]vICMSDif=0[CR][LF]pRedBCEfet=0[CR][LF]vBCEfet=0[CR][LF]pICMSEfet=0[CR][LF]vICMSEfet=0[CR][LF]vICMSSubstituto=0[CR][LF]vICMSSTDeson=0[CR][LF]motDesICMSST=1[CR][LF]pFCPDif=0[CR][LF]vFCPDif=0[CR][LF]vFCPEfet=0[CR][LF]adRemICMS=0[CR][LF]vICMSMono=0[CR][LF]adRemICMSReten=0[CR][LF]vICMSMonoReten=0[CR][LF]vICMSMonoDif=0[CR][LF]adRemICMSRet=0[CR][LF]vICMSMonoRet=0[CR][LF]qBCMono=0[CR][LF]qBCMonoReten=0[CR][LF]pRedAdRem=0[CR][LF]motRedAdRem=1[CR][LF]qBCMonoRet=0[CR][LF]vICMSMonoOp=0[CR][LF]indDeduzDeson=[CR][LF][ICMSUFDEST001][CR][LF]vBCUFDest=0[CR][LF]vBCFCPUFDest=0[CR][LF]pICMSUFDest=0[CR][LF]pICMSInter=0[CR][LF]pICMSInterPart=0[CR][LF]vICMSUFDest=0[CR][LF]vICMSUFRemet=0[CR][LF]pFCPUFDest=0[CR][LF]vFCPUFDest=0[CR][LF][IPI001][CR][LF]CST=99[CR][LF]cEnq=999[CR][LF]clEnq=[CR][LF]CNPJProd=[CR][LF]cSelo=[CR][LF]qSelo=0[CR][LF]vBC=0[CR][LF]qUnid=0[CR][LF]vUnid=0[CR][LF]pIPI=0[CR][LF]vIPI=0[CR][LF][PIS001][CR][LF]CST=99[CR][LF]vBC=0[CR][LF]pPIS=0[CR][LF]qBCProd=0[CR][LF]vAliqProd=0[CR][LF]vPIS=0[CR][LF][COFINS001][CR][LF]CST=99[CR][LF]vBC=0[CR][LF]pCOFINS=0[CR][LF]qBCProd=0[CR][LF]vAliqProd=0[CR][LF]vCOFINS=0[CR][LF][Total][CR][LF]vBC=0[CR][LF]vICMS=0[CR][LF]vICMSDeson=0[CR][LF]vFCP=0[CR][LF]vICMSUFDest=0[CR][LF]vICMSUFRemet=0[CR][LF]vFCPUFDest=0[CR][LF]vBCST=0[CR][LF]vST=0[CR][LF]vFCPST=0[CR][LF]vFCPSTRet=0[CR][LF]qBCMono=0[CR][LF]vICMSMono=0[CR][LF]qBCMonoReten=0[CR][LF]vICMSMonoReten=0[CR][LF]qBCMonoRet=0[CR][LF]vICMSMonoRet=0[CR][LF]vProd=100[CR][LF]vFrete=0[CR][LF]vSeg=0[CR][LF]vDesc=0[CR][LF]vII=0[CR][LF]vIPI=0[CR][LF]vIPIDevol=0[CR][LF]vPIS=0[CR][LF]vCOFINS=0[CR][LF]vOutro=0[CR][LF]vNF=100[CR][LF]vTotTrib=0[CR][LF][ISSQNtot][CR][LF]vServ=0[CR][LF]vBC=0[CR][LF]vISS=0[CR][LF]vPIS=0[CR][LF]vCOFINS=0[CR][LF]dCompet=30/12/1899[CR][LF]vDeducao=0[CR][LF]vOutro=0[CR][LF]vDescIncond=0[CR][LF]vDescCond=0[CR][LF]vISSRet=0[CR][LF]cRegTrib=0[CR][LF][retTrib][CR][LF]vRetPIS=0[CR][LF]vRetCOFINS=0[CR][LF]vRetCSLL=0[CR][LF]vBCIRRF=0[CR][LF]vIRRF=0[CR][LF]vBCRetPrev=0[CR][LF]vRetPrev=0[CR][LF][Transportador][CR][LF]modFrete=1[CR][LF]CNPJCPF=99999999999999[CR][LF]xNome=Transportadora MM[CR][LF]IE=999999999999[CR][LF]xEnder=Rua Cel Aureliano Camargo[CR][LF]xMun=Tatui[CR][LF]UF=SP[CR][LF]vServ=0[CR][LF]vBCRet=0[CR][LF]pICMSRet=0[CR][LF]vICMSRet=0[CR][LF]CFOP=5356[CR][LF]cMunFG=3554003[CR][LF]Placa=ABC1212[CR][LF]UFPlaca=SP[CR][LF]RNTC=22222222[CR][LF]vagao=[CR][LF]balsa=[CR][LF][Volume001][CR][LF]qVol=1[CR][LF]esp=CX[CR][LF]marca=[CR][LF]nVol=1[CR][LF]pesoL=31[CR][LF]pesoB=31[CR][LF][Fatura][CR][LF]nFat=1200[CR][LF]vOrig=80[CR][LF]vDesc=0[CR][LF]vLiq=80[CR][LF][Duplicata001][CR][LF]nDup=001[CR][LF]dVenc=19/10/2018[CR][LF]vDup=80[CR][LF][pag001][CR][LF]tPag=01[CR][LF]xPag=Descricao Pagamento[CR][LF]vPag=20[CR][LF]dPag=30/12/1899[CR][LF]CNPJPag=[CR][LF]UFPag=[CR][LF]indPag=0[CR][LF]tpIntegra=[CR][LF]CNPJ=[CR][LF]tBand=[CR][LF]cAut=[CR][LF]CNPJReceb=[CR][LF]idTermPag=[CR][LF][pag002][CR][LF]tPag=15[CR][LF]xPag=[CR][LF]vPag=80[CR][LF]dPag=30/12/1899[CR][LF]CNPJPag=[CR][LF]UFPag=[CR][LF]indPag=1[CR][LF]tpIntegra=[CR][LF]CNPJ=[CR][LF]tBand=[CR][LF]cAut=[CR][LF]CNPJReceb=[CR][LF]idTermPag=[CR][LF]vTroco=0[CR][LF][infIntermed][CR][LF]CNPJ=[CR][LF]idCadIntTran=[CR][LF][DadosAdicionais][CR][LF]infAdFisco=[CR][LF]infCpl=[CR][LF][cana][CR][LF]safra=[CR][LF]ref=[CR][LF]qTotMes=0[CR][LF]qTotAnt=0[CR][LF]qTotGer=0[CR][LF]vFor=0[CR][LF]vTotDed=0[CR][LF]vLiqFor=0[CR][LF][infRespTec][CR][LF]CNPJ=[CR][LF]xContato=[CR][LF]email=[CR][LF]fone=[CR][LF][procNFe][CR][LF]tpAmb=1[CR][LF]verAplic=[CR][LF]chNFe=[CR][LF]dhRecbto=30/12/1899[CR][LF]nProt=[CR][LF]digVal=[CR][LF]cStat=0[CR][LF]xMotivo=[CR][LF]
+07/06/24 14:43:14:901 - LIB_Finalizar
+07/06/24 14:43:14:902 - Finalizar
