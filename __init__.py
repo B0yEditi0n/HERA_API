@@ -32,4 +32,9 @@ print('\nNota Fiscal Validada')
 
 emissNF.guardaXML()
 
+print('\nXML Gerada')
+
+# Efetuar Entrga 
+emissNF.enviar_nota_fiscal()
+
 emissNF.finalizar_execucao()

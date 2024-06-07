@@ -17,11 +17,6 @@ class NFe:
     INI_ACBR_NFE            = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", 'ACBrNFeServicos.ini'))
     INI_NFE                 = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'config' ,"nfe.INI"))
 
-    # Troca de retornos
-    tamanho_inicial = 9096
-    esTamanho = ctypes.c_ulong(tamanho_inicial)
-    sResposta = ctypes.create_string_buffer(tamanho_inicial)
-
     # blbioteca
     cbr_lib = ctypes.cdll.LoadLibrary(PATH_DLL)
     eChaveCrypt = 'dn5fy#5215#sdh'
@@ -101,7 +96,7 @@ class NFe:
         self.escrever_ini("DFe", "ArquivoPFX", os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'config', 'certificadoDigital', "server.pfx")))
         self.escrever_ini("DFe", "Senha", "Dh2022@@")
         self.escrever_ini("DFe", "SSLCryptLib", "1")
-        self.escrever_ini("DFe", "SSLHttpLib", "0")
+        self.escrever_ini("DFe", "SSLHttpLib", "3")
         self.escrever_ini("DFe", "SSLXmlSignLib", "4")
 
         self.escrever_ini("DANFE", "PathPDF", DIRETORIO_ATUAL)
@@ -146,24 +141,66 @@ class NFe:
         '''
             Guarda a XML de Envio da NF criada
 
+        '''
+
+        # Parametros do tipo ponteiro para passar pra DLL
+        esTamanho = ctypes.c_ulong(9048)
+        sResposta = ctypes.create_string_buffer(9048)
+                
+        self.cbr_lib.NFE_ObterXml(0, sResposta, ctypes.byref(esTamanho))
+        
+        if esTamanho.value > len(sResposta.value):
+            # Caso o tamanho de buffer seja insuficiente
+            resposta = self.retornarMensagemCompleta(esTamanho.value)
+        else:
+            resposta = sResposta.value.decode("utf-8")
+
+    def retornarMensagemCompleta(self, novo_Tamanho):
+        '''
+            Como as DLLs exigem passagem de ponteiros como parametro 
+            o tamanho deve ser definido previamente. Este metódo será
+            usado caso o tamanho da string de memória seja insuficiente.
+            assim ele recaputrará a ultima saída e retornrá o valor total
+            
+            Args:
+                Params:
+                    int novo_Tamanho - é o tamanho que o retorno exige
+                
+                String Return - retornará a string completa do ultimo retorno
 
         '''
-                
-        self.cbr_lib.NFE_ObterIni(
-            # Posição da NFe na lista, a lista inicia em 0.
-            0,
-            # Usado pelo retorno, contem as informações retornadas.
-            self.sResposta,
-            # Usado pelo retorno, contem o tamanho da string (sResposta).
-            ctypes.byref(self.esTamanho)
+
+        DLL_resposta = ctypes.create_string_buffer(novo_Tamanho)
+        DLL_tamanho = ctypes.c_ulong(novo_Tamanho)
+        self.cbr_lib.NFE_UltimoRetorno(DLL_resposta, ctypes.byref(DLL_tamanho))
+
+        return DLL_resposta.value.decode("utf-8")
+
+    def enviar_nota_fiscal(self):
+        """
+            Método usado para enviar um lote de NFe para SEFAZ.
+        """
+        
+        # Parametros do tipo ponteiro para passar pra DLL
+        esTamanho = ctypes.c_ulong(9048)
+        sResposta = ctypes.create_string_buffer(9048)
+
+        self.cbr_lib.NFE_Enviar(
+            1,     # Lote
+            False, # Imprimir
+            True,  # ASincrono
+            False, # Zipado
+            sResposta, ctypes.byref(esTamanho)
         )
-        retornoXML = self.cbr_lib.NFE_UltimoRetorno(self.sResposta, ctypes.byref(self.esTamanho))
 
+        if esTamanho.value > len(sResposta.value):
+            # Caso o tamanho de buffer seja insuficiente
+            resposta = self.retornarMensagemCompleta(esTamanho.value)
+        else:
+            resposta = sResposta.value.decode("utf-8")
 
-        print('\nObter XML: ', retornoXML)
-        print('\nMemória usada: ', self.esTamanho.value)
-        print(self.sResposta.value.decode("utf-8"))
-    
+        print(resposta)
+
     def finalizar_execucao(self):
         self.cbr_lib.NFE_Finalizar()
     
