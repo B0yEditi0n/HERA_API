@@ -13,7 +13,7 @@ class NFe:
     PATH_LOG                = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "Log"))
     PATH_SCHEMA             = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", "Schemas", "NFe"))
     INI_ACBR_NFE            = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", 'ACBrNFeServicos.ini'))
-    NFE_INI                 = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "temp", 'nfe.ini'))
+    NFE_INI                 = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'nfe.ini'))
 
     # blbioteca
     cbr_lib = ctypes.cdll.LoadLibrary(PATH_DLL)
@@ -117,18 +117,21 @@ class NFe:
             valor.encode("utf-8")
         )
 
-    def json_to_ini_file(self, json):
+    async def json_to_ini_file(self, json):
         '''
             Converte o dicionario em um arquivo ini NFE
 
              Args:
                 Params:
                     json - Dicionario de Dados (Objeto json) com os dados do ini
+                Return: 1 com diretório já concluido
                 
         '''
 
         # dados de NFE
-        ini_file                 = configparser.ConfigParser()
+        ini_file = configparser.ConfigParser()
+        # habilita sentive case nos campos
+        ini_file.optionxform = str
 
         for s in json:
             itens_body = {}
@@ -138,10 +141,13 @@ class NFe:
 
             ini_file[s['session']] = itens_body
         try:
-            with open(self.NFE_INI.encode('utf-8'), 'w') as configfile:
-                ini_file.write(configfile)
+            with open('nfe.ini', 'w') as configfile:
+                # remove espaços entre o = Key e o valor
+                await ini_file.write(configfile, space_around_delimiters=False)
         except:
             print('caminho com problemas')
+
+        return 1
             
     def carregarXML(self):
         '''
@@ -152,7 +158,8 @@ class NFe:
 
         '''
         # Carrega uma NFE apartir do arquivo INI
-        self.cbr_lib.NFE_CarregarINI(('/temp/nf.ini').encode('utf-8'))
+        self.cbr_lib.NFE_CarregarINI(self.NFE_INI.encode('utf-8'))
+        # os.remove(self.NFE_INI.encode('utf-8'))
 
     
 

@@ -2,6 +2,9 @@
 # Arquivo Inicial de Desenvolvimento do Emissor 
 #
 
+# pip install
+# pip install flask[async]
+
 
 # Bibliotecas
 import biblioteca

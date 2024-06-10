@@ -17,12 +17,12 @@ postApi = flask_restful.Api(api)
 
 
 @api.route('/', methods=['POST'])
-def raiz():
+async def raiz():
 
     post_body = json.loads(flask.request.data)
     try:
         # Convert o post em um arquivo ini
-        emissor.json_to_ini_file(post_body)
+        await emissor.json_to_ini_file(post_body)
     except:
         return{
             "Message": "Erro ao processar POST"
@@ -54,7 +54,7 @@ def raiz():
 
 if __name__ == '__main__':
     try:
-        api.run(debug=True, host='10.110.0.5', port=5723)
+        api.run(debug=True, host='0.0.0.0', port=5723)
     except:
         # Caso haja qualquer erro matar a execução da lib
         emissor.finalizar_execucao()
