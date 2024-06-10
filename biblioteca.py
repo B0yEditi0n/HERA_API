@@ -1,9 +1,7 @@
 # Bibliotecas
 import ctypes
-import json
 import os
-import sys
-from datetime import datetime
+import configparser
 
 # Obtem a pasta do projeto
 DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
@@ -15,7 +13,7 @@ class NFe:
     PATH_LOG                = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "Log"))
     PATH_SCHEMA             = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", "Schemas", "NFe"))
     INI_ACBR_NFE            = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", 'ACBrNFeServicos.ini'))
-    INI_NFE                 = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'config' ,"nfe.INI"))
+    NFE_INI                 = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "temp", 'nfe.ini'))
 
     # blbioteca
     cbr_lib = ctypes.cdll.LoadLibrary(PATH_DLL)
@@ -101,18 +99,7 @@ class NFe:
 
         self.escrever_ini("DANFE", "PathPDF", DIRETORIO_ATUAL)
         return 0
-
-    def carregarXML(self):
-        '''
-            para preencher a nota fiscal é necessário cadastar alguns campos 
-            no NFE.ini
-            para evitar duvidas consulte o manual de layout
-            https://www.confaz.fazenda.gov.br/legislacao/arquivo-manuais/moc7-anexo-i-leiaute-e-rv.pdf
-
-        '''
-        # Carrega uma NFE apartir do arquivo INI
-        self.cbr_lib.NFE_CarregarINI(self.INI_NFE.encode("utf-8"))
-
+    
     def escrever_ini(self, sessao, chave, valor):
         '''
             Auxilia no preenchimento dos valores 
@@ -129,6 +116,45 @@ class NFe:
             chave.encode("utf-8"),
             valor.encode("utf-8")
         )
+
+    def json_to_ini_file(self, json):
+        '''
+            Converte o dicionario em um arquivo ini NFE
+
+             Args:
+                Params:
+                    json - Dicionario de Dados (Objeto json) com os dados do ini
+                
+        '''
+
+        # dados de NFE
+        ini_file                 = configparser.ConfigParser()
+
+        for s in json:
+            itens_body = {}
+
+            for iten in s['body']:
+                itens_body[iten['key']] = iten['value']
+
+            ini_file[s['session']] = itens_body
+        try:
+            with open(self.NFE_INI.encode('utf-8'), 'w') as configfile:
+                ini_file.write(configfile)
+        except:
+            print('caminho com problemas')
+            
+    def carregarXML(self):
+        '''
+            para preencher a nota fiscal é necessário cadastar alguns campos 
+            no NFE.ini
+            para evitar duvidas consulte o manual de layout
+            https://www.confaz.fazenda.gov.br/legislacao/arquivo-manuais/moc7-anexo-i-leiaute-e-rv.pdf
+
+        '''
+        # Carrega uma NFE apartir do arquivo INI
+        self.cbr_lib.NFE_CarregarINI(('/temp/nf.ini').encode('utf-8'))
+
+    
 
     def assinarNFE(self):
         return(self.cbr_lib.NFE_Assinar())
