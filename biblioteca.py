@@ -8,11 +8,11 @@ DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
 
 class NFe:
     # Caminhos de arquivos
-    PATH_DLL                = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'ACBrLib', 'ACBrNFe64.dll'))
-    PATH_INI_CONFIG         = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'ACBrLib', 'NFeConfig.ini'))
-    PATH_LOG                = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "Log"))
-    PATH_SCHEMA             = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", "Schemas", "NFe"))
-    INI_ACBR_NFE            = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", 'ACBrNFeServicos.ini'))
+    PATH_DLL                = os.path.join(os.sep, DIRETORIO_ATUAL, 'ACBrLib', 'ACBrNFe64.dll')
+    PATH_INI_CONFIG         = os.path.join(os.sep, DIRETORIO_ATUAL, 'ACBrLib', 'NFeConfig.ini')
+    PATH_LOG                = os.path.join(os.sep, DIRETORIO_ATUAL, "Log")
+    PATH_SCHEMA             = os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", "Schemas", "NFe")
+    INI_ACBR_NFE            = os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", 'ACBrNFeServicos.ini')
     NFE_INI                 = os.path.join(os.sep, DIRETORIO_ATUAL, 'nfe.ini')
 
     # blbioteca
