@@ -9,6 +9,7 @@
 # Bibliotecas
 import biblioteca
 import sys
+import os
 
 emissNF = biblioteca.NFe()
 
@@ -19,7 +20,13 @@ if emissNF.init_DLL() != 0:
 
 print('\nInitializado!')
 
-emissNF.carregarXML()
+# emissNF.carregarXML()
+DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
+nfetext = os.path.join(os.sep, DIRETORIO_ATUAL, 'nfe.ini')
+# txt = open(nfetext.encode('utf-8'), "r")
+# print('\nTexto Conteudo; ')
+# print(txt.read())
+emissNF.cbr_lib.NFE_CarregarINI(nfetext.encode('utf-8'))
 
 ret_meth = emissNF.assinarNFE()
 if ret_meth !=0:

@@ -13,7 +13,7 @@ class NFe:
     PATH_LOG                = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "Log"))
     PATH_SCHEMA             = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", "Schemas", "NFe"))
     INI_ACBR_NFE            = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, "ACBrLib", 'ACBrNFeServicos.ini'))
-    NFE_INI                 = os.path.abspath(os.path.join(os.sep, DIRETORIO_ATUAL, 'nfe.ini'))
+    NFE_INI                 = os.path.join(os.sep, DIRETORIO_ATUAL, 'nfe.ini')
 
     # blbioteca
     cbr_lib = ctypes.cdll.LoadLibrary(PATH_DLL)
@@ -116,8 +116,9 @@ class NFe:
             chave.encode("utf-8"),
             valor.encode("utf-8")
         )
-
-    async def json_to_ini_file(self, json):
+    
+    def json_to_ini_file(self, json):
+    
         '''
             Converte o dicionario em um arquivo ini NFE
 
@@ -143,11 +144,12 @@ class NFe:
         try:
             with open('nfe.ini', 'w') as configfile:
                 # remove espaços entre o = Key e o valor
-                await ini_file.write(configfile, space_around_delimiters=False)
+                ini_file.write(configfile, space_around_delimiters=False)
+                return 1
         except:
             print('caminho com problemas')
 
-        return 1
+        
             
     def carregarXML(self):
         '''
@@ -160,6 +162,7 @@ class NFe:
         # Carrega uma NFE apartir do arquivo INI
         self.cbr_lib.NFE_CarregarINI(self.NFE_INI.encode('utf-8'))
         # os.remove(self.NFE_INI.encode('utf-8'))
+        return 1
 
     
 
@@ -187,6 +190,7 @@ class NFe:
             resposta = self.retornarMensagemCompleta(esTamanho.value)
         else:
             resposta = sResposta.value.decode("utf-8")
+        return resposta
 
     def retornarMensagemCompleta(self, novo_Tamanho):
         '''
