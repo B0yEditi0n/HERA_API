@@ -117,7 +117,7 @@ class NFe:
             valor.encode("utf-8")
         )
     
-    def json_to_ini_file(self, json):
+    async def json_to_ini_file(self, json):
     
         '''
             Converte o dicionario em um arquivo ini NFE
@@ -144,7 +144,7 @@ class NFe:
         try:
             with open('nfe.ini', 'w') as configfile:
                 # remove espaços entre o = Key e o valor
-                ini_file.write(configfile, space_around_delimiters=False)
+                await ini_file.write(configfile, space_around_delimiters=False)
                 return 1
         except:
             print('caminho com problemas')
